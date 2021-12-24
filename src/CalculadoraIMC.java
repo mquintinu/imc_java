@@ -25,7 +25,7 @@ public class CalculadoraIMC {
         } else if (imc >= 40) {
             JOptionPane.showMessageDialog(null, "IMC = " + vlrFormatado + " - Obesidade Grau 3.");
         } else {
-            JOptionPane.showMessageDialog(null, "IMC = " + vlrFormatado + " - Peso baixo.");
+            JOptionPane.showMessageDialog(null, "IMC = " + vlrFormatado + " - Peso abaixo.");
         }
     }
 }
